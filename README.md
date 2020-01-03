@@ -37,9 +37,10 @@ For the Portuguese data set, we adopted the same split proportion as in the orig
   <img width="719px" src="table1_datasets.png">
 </p>
 
-TODO We also experimented with [60 sentences](criar_ficheiro.csv) revised ...
+We evaluated the FastText model on [60 manually reviewed sentences](test_60_pt.tsv) from the test set and obtained a delta of 0.0320 in comparison with the machine translated output.
 
-## Baseline
+
+## Experiments
 
 The [BiLSTM](bilstm_baseline.py) source code for the baseline is available for the reproduction of the results reported in Table 2 and Table 3.
 
