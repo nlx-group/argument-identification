@@ -9,7 +9,7 @@ João Rodrigues and António Branco
 
 **Paper**
 
-[Argument Identificationin a Language without Labeled Data]()
+[Argument Identification in a Language without Labeled Data]()
 
 
 **Abstract**
@@ -21,12 +21,18 @@ João Rodrigues and António Branco
 
 ## Data sets
 
-TODO
+The original data used for the experiments was the [UKP Sentential Argument Mining Corpus](https://www.informatik.tu-darmstadt.de/ukp/research_6/data/argumentation_mining_1/ukp_sentential_argument_mining_corpus/index.en.jsp).
+The translated version for Portuguese is available in the following splits:
+[train](train_pt.tsv), [development](dev_pt.tsv) and [test](test_pt.tsv).
+
+<p align="center">
+  <img width="420px" src="table1_datasets.png">
+</p>
 
 ## Files for replication
 
-TODO
+
 
 ## Results
 
-TODO
+
