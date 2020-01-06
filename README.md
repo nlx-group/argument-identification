@@ -31,7 +31,7 @@ This corpus has approximately 25k sentences of which 10k are labeled as argument
 The definition for argument followed by the annotators was a span of text expressing evidence or reasoning that can be used
 to either support or oppose a given topic.
 
-For the Portuguese data set, we adopted the same split proportion as in the original (English) data set, that is, 70% of the total instances for [training](train_pt.tsv), 10% for [development](dev_pt.tsv) and 20% for [testing](test_pt.tsv).
+For the Portuguese data set, we adopted the same split proportion as in the original (English) data set, that is, 70% of the total instances for [training](code/data/train_pt.tsv), 10% for [development](code/data/dev_pt.tsv) and 20% for [testing](code/data/test_pt.tsv).
 
 <p align="center">
   <img width="719px" src="table1_datasets.png">
