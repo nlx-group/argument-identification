@@ -42,7 +42,7 @@ We evaluated the FastText model on [60 manually reviewed sentences](test_60_pt.t
 
 ## Experiments
 
-The [BiLSTM](bilstm_baseline.py) source code for the baseline is available for the reproduction of the results reported in Table 2 and Table 3.
+The [BiLSTM](code/data/bilstm_baseline.py) source code for the baseline is available for the reproduction of the results reported in Table 2 and Table 3.
 
 We choose to experiment with semantic spaces of different natures, namely from: 
 * (a) [FastText](https://fasttext.cc/), a distributional semantic space that takes morphological
