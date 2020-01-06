@@ -69,6 +69,21 @@ The following parameters were used to obtain it: multi_cased_L-12_H-768_A-12 mod
   <img width="719px" src="table2_secondexperiment.png">
 </p>
 
+We resorted to synthetic data where sentences are generated with the help of a language model, namely the [GPT-2](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) model. 
+
+Each sentence in the original training data is used as the context for GPT-2 to generate three other (synthetic) sentences.
+GPT-2 is a large transformer-based language model trained on the word prediction task from a 40GB of web data corpus. 
+It outperforms several other language models on a number of language tasks, thus being a good option to generate text.just
+Given that the original models of GPT-2 were trained with English corpora, we trained three 355M parameter models for Portuguese, with three Portuguese corpora from different domains: 
+[Wikipedia](https://pypi.org/project/gpt-2-simple/),
+[CetemPúblico](https://www.linguateca.pt/CETEMPublico/), with articles from the Público newspaper;
+and [Europarl](http://www.statmt.org/europarl/), with transcriptions of debates from the European Parliament. 
+We used the [gpt-2-simple](https://pypi.org/project/gpt-2-simple/) module.
+
+Given the large size of the resulting models we report the training logs: [Wikipedia](gpt2_wikipedia.txt), [CetemPúblico](gpt2_cetempublico.txt) and [Europarl](gpt2_europarl.txt).
+
+
+
 <p align="center">
   <img width="719px" src="table3_thirdexperiment.png">
 </p>
