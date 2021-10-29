@@ -9,7 +9,7 @@ João Rodrigues and António Branco
 
 **Paper**
 
-[Argument Identification in a Language without Labeled Data]()
+[Argument Identification in a Language without Labeled Data](http://www.di.fc.ul.pt/~ahb/pubs/2020RodriguesBranco.pdf)
 
 
 **Abstract**
